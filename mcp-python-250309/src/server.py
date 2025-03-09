@@ -11,7 +11,7 @@ logging.basicConfig(
     ]
 )
 
-logger = logging.getLogger("mcp-server")
+logger = logging.getLogger("mcp-python")
 
 # Create an MCP server
 # mcp = FastMCP("MCP 서버")

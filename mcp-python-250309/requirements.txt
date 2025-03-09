@@ -1,8 +1,0 @@
-fastapi
-uvicorn
-sse-starlette
-pydantic
-asyncio
-mcp
-fastmcp
-websockets

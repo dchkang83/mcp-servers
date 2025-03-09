@@ -1,12 +1,12 @@
 services:
-  mcp-server-250309:
+  mcp-python-250309:
     build: .
     image: gundam/mcp-python-250309:1.0.0
-    container_name: mcp-server-250309
+    container_name: mcp-python-250309
     ports:
       - "8000:8000"
     volumes:
-      - .:/app
+      - ./src:/app
     restart: unless-stopped
     networks:
       - mcp-network
