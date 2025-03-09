@@ -1,0 +1,22 @@
+services:
+  mcp-server-250309:
+    build: .
+    image: gundam/mcp-python-250309:1.0.0
+    container_name: mcp-server-250309
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    restart: unless-stopped
+    networks:
+      - mcp-network
+    environment:
+      - PYTHONUNBUFFERED=1
+      - LOG_LEVEL=DEBUG
+      - FASTMCP_PORT=8000
+      - FASTMCP_TRANSPORT=sse
+      - FASTMCP_DEBUG=true
+      - FASTMCP_HOST=0.0.0.0
+networks:
+  mcp-network:
+    driver: bridge
