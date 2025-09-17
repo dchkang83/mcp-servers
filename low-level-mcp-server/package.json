@@ -1,5 +1,5 @@
 {
-  "name": "high-level-mcp-server",
+  "name": "low-level-mcp-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
