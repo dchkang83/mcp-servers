@@ -105,5 +105,5 @@ server.resource(
 const transport = new StdioServerTransport();
 await server.connect(transport);
 
-// /Users/deokjoonkang/dev/projects/gundam/mcp-servers/typescript-tutorial-250807/dist/index.js
+// /Users/deokjoonkang/dev/projects/gundam/mcp-servers/high-level-mcp-server/dist/index.js
 console.log("Server is running on stdin/stdout");

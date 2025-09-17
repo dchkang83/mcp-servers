@@ -2,7 +2,7 @@
   "mcpServers": {
     "high-level-mcp-server": {
       "command": "node",
-      "args": ["/Users/deokjoonkang/dev/projects/gundam/mcp-servers/typescript-tutorial-250807/dist/index.js"]
+      "args": ["/Users/deokjoonkang/dev/projects/gundam/mcp-servers/high-level-mcp-server/dist/index.js"]
     }
   }
 }
